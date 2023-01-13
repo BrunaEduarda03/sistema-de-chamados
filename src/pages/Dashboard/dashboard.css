@@ -1,0 +1,129 @@
+.new{
+  background-color: #83bf02;
+  float: right;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border: 0;
+  padding: 0.5em;
+  border-radius: 4px;
+  justify-content: center;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.new svg {
+  margin-right: 5px;
+}
+
+.new:hover {
+  background-color: #5fd204;
+  transform: scale(1.1);
+}
+
+table {
+  border:1px solid #CCC;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+  
+}
+
+table tr{
+  background-color: #f8f8f8;
+  border:1px solid #CCC;
+  padding: 0.35em;
+}
+
+table th,table td{
+text-align: center;
+padding: 0.50em;
+}
+
+table th{
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+table td .action{
+  border: 0;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+table td svg{
+  vertical-align: middle;
+}
+
+table td .badge {
+  padding: 5px;
+  color: #fff;
+  border-radius: 3px;
+
+}
+
+.btn-more{
+  background-color: #181C2E;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  margin-top: 1.5em;
+  cursor: pointer;
+  border: 0;
+  font-size: 1.1em;
+}
+
+@media screen and (max-width:550px){
+  table{
+    border: 0;
+  }
+
+  table caption{
+    font-size: 1.3em;
+  }
+
+  table thead{
+    border: none;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    padding: 0;
+  }
+
+  table tr{
+    border-bottom: 3px solid #CCC;
+    display: block;
+    margin-bottom: 0.5em;
+    
+  }
+
+  table td{
+    border-bottom: 1px solid #CCC;
+    display: block;
+    text-align: right;
+    font-size: 0.8em;
+    
+  }
+
+  table td:before{
+    content: attr(data-label);
+    float:left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

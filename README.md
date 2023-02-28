@@ -4,7 +4,8 @@
 
 ## :man_technologist: Sobre a aplicação
 
-  O projeto seguinte tem como intuito desenvolver uma aplicação de um jogo muito popular de perguntas e respostas como meio de estimular o raciocínio lógico, onde além de diversão,tem função educativa.</br>
+  O projeto seguinte tem como intuito desenvolver uma aplicação  para organização do sistema de chamados de uma determinada empresa prestadora de serviços para tarefas em aberto ou atendidas. 
+  </br>
   
 LINK: https://sistema-de-chamdos99.netlify.app/
   
@@ -19,28 +20,30 @@ LINK: https://sistema-de-chamdos99.netlify.app/
 - React Toastify
 
 ## 💻 DEMO
+### Logando usuário
 
-https://user-images.githubusercontent.com/73250271/221950887-59e0f96c-ee92-428b-a434-52b367d36492.mp4
+[https://user-images.githubusercontent.com/73250271/221950887-59e0f96c-ee92-428b-a434-52b367d36492.mp4](https://user-images.githubusercontent.com/73250271/222007101-ebb92ec0-4c9d-41e6-95f3-70055ce517d3.mp4)
+
+### Usabilidade do sistema
+
+https://user-images.githubusercontent.com/73250271/222007449-a59b549d-0d3e-4265-a4ef-cfde4f42bba9.mp4
 
 
 ## 🛠️ Como instalar
 
-⚠️ **Atenção**: Você precisa ter o docker e o docker-compose instalados em sua máquina para rodar o projeto.
-
 **Clonar este repositório**
-
 ```
 git clone git@github.com:BrunaEduarda03/sistema-de-chamados.git
 ```
 ⚠️ **Atenção**: Você precisa ter o node instalado em sua máquina para rodar o projeto.
 
- Dentro da pasta challenge-trivia<br/>
+ Dentro da pasta sistema-chamdos<br/>
 ```bash
 # Instale as dependências
 $ npm install
 
-# Para iniciar a aplicação na porta 5174
-$ npm run dev
+# Para iniciar a aplicação na porta 3000
+$ npm start
 ```
 ## 🕵🏿 Testes
 **Para executar os testes de cobertura use os seguintes comandos:**

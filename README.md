@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<div align='center'>
+  <h1>Sistema de Chamados</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :man_technologist: Sobre a aplicação
 
-## Available Scripts
+  O projeto seguinte tem como intuito desenvolver uma aplicação de um jogo muito popular de perguntas e respostas como meio de estimular o raciocínio lógico, onde além de diversão,tem função educativa.</br>
+  
+LINK: https://sistema-de-chamdos99.netlify.app/
+  
 
-In the project directory, you can run:
+## 🚀 Tecnologias 
+- React js
+- React testing Library
+- Firebase
+- Context API
+- React Router
+- React Icons
+- React Toastify
 
-### `npm start`
+## 💻 DEMO
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://user-images.githubusercontent.com/73250271/221950887-59e0f96c-ee92-428b-a434-52b367d36492.mp4
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🛠️ Como instalar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⚠️ **Atenção**: Você precisa ter o docker e o docker-compose instalados em sua máquina para rodar o projeto.
 
-### `npm run build`
+**Clonar este repositório**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone git@github.com:BrunaEduarda03/sistema-de-chamados.git
+```
+⚠️ **Atenção**: Você precisa ter o node instalado em sua máquina para rodar o projeto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ Dentro da pasta challenge-trivia<br/>
+```bash
+# Instale as dependências
+$ npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Para iniciar a aplicação na porta 5174
+$ npm run dev
+```
+## 🕵🏿 Testes
+**Para executar os testes de cobertura use os seguintes comandos:**
 
-### `npm run eject`
+```
+npm run test:coverage
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Para executar os testes localmente use os seguintes comandos:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm run cy:open
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### :balance_scale: Licença
+Este projeto está licenciado sob a [licença MIT](LICENSE).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### :speaking_head:  Dúvidas ou feedbacks sobre o projeto!
 
-## Learn More
+E-mail: [**brunaduda37@gmail.com**](mailto:brunaduda37@gmail.com)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Linkedin: [Bruna Eduarda](https://www.linkedin.com/in/bruna-eduarda-a06a1b18b/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por: [Bruna Eduarda](https://www.linkedin.com/in/bruna-eduarda-a06a1b18b/)
